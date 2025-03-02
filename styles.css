@@ -84,6 +84,24 @@ body {
   border-radius: 4px;
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: var(--spacing-150);
+  border: 1px solid var(--gray-950);
+  width: 100%;
+  height: 32px;
+}
+
+.author {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--spacing-150);
+}
+
 .text-preset-1,
 .text-preset-3,
 .text-preset-3-bold {
