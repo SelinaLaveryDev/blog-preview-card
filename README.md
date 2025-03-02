@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-View my solution [here]()
+View my solution [here](https://selinalaverydev.github.io/blog-preview-card/)
 
 ## My process
 
