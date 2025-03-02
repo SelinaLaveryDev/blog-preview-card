@@ -1,0 +1,70 @@
+.root {
+  /* colours */
+  --yellow: #f4d04e;
+  --gray-950: #111111;
+  --gray-500: #6b6b6b;
+  --white: #ffffff;
+
+  /* typography */
+  --figtree-extra-bold: "FigtreeExtraBold";
+  --figtree-medium: "FigtreeMedium";
+
+  --text-24: 24px;
+  --text-16: 16px;
+  --text-14: 14px;
+
+  --line-height-150: 150%;
+
+  --letter-spacing-0: 0;
+
+  --spacing-300: 24px;
+  --spacing-150: 12px;
+  --spacing-100: 8px;
+  --spacing-50: 4px;
+}
+
+@font-face {
+  font-family: "FigtreeExtraBold";
+  src: url("./assets/fonts/static/Figtree-ExtraBold.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "FigtreeMedium";
+  src: url("./assets/fonts/static/Figtree-Medium.ttf") format("opentype");
+}
+
+.text-preset-1 {
+  font-family: var(--figtree-extra-bold);
+  font-size: var(--text-24);
+  line-height: var(--line-height-150);
+  letter-spacing: var(--letter-spacing-0);
+}
+
+.text-preset-2 {
+  font-family: var(--figtree-medium);
+  font-size: var(--text-16);
+  line-height: var(--line-height-150);
+  letter-spacing: var(--letter-spacing-0);
+}
+
+.text-preset-3 {
+  font-family: var(--figtree-medium);
+  font-size: var(--text-14);
+  line-height: var(--line-height-150);
+  letter-spacing: var(--letter-spacing-0);
+}
+
+.text-preset-3-bold {
+  font-family: var(--figtree-extra-bold);
+  font-size: var(--text-14);
+  line-height: var(--line-height-150);
+  letter-spacing: var(--letter-spacing-0);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
