@@ -1,4 +1,4 @@
-.root {
+:root {
   /* colours */
   --yellow: #f4d04e;
   --gray-950: #111111;
@@ -31,6 +31,37 @@
 @font-face {
   font-family: "FigtreeMedium";
   src: url("./assets/fonts/static/Figtree-Medium.ttf") format("opentype");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--yellow);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 384px;
+  height: 522px;
+  background-color: var(--white);
+  border-radius: 20px;
+  padding: var(--spacing-300);
+  gap: var(--spacing-300);
+  border: 1px solid var(--gray-950);
+  box-shadow: 8px 8px 0px 0px #000000;
 }
 
 .text-preset-1 {
